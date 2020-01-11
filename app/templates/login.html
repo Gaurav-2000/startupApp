@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <form action="/login" method="post">
+        {{ form.hidden_tag() }}
+
+        {{ form.email_id.label }}
+        {{ form.email_id }}
+
+
+        {{ form.password.label }}
+        {{ form.password }}
+
+        {{ form.remember }}
+        {{ form.remember.label}}
+
+        {{ form.submit }}
+
+    </form>
+</body>
+</html>

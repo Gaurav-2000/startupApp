@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <form action="/registration" method="post">
+        {{ form.hidden_tag() }}
+
+        {{ form.name.label }}
+        {{ form.name }}
+
+        {{ form.email_id.label }}
+        {{ form.email_id }}
+
+        {{ form.password.label }}
+        {{ form.password }}
+
+        {{ form.confirm_password.label }}
+        {{ form.confirm_password }}
+
+        {{ form.submit }}
+
+    </form>
+</body>
+</html>
